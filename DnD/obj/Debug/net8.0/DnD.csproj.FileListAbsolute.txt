@@ -1,0 +1,14 @@
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\DnD.exe
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\DnD.deps.json
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\DnD.runtimeconfig.json
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\DnD.dll
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\DnD.pdb
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.AssemblyInfoInputs.cache
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.AssemblyInfo.cs
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.dll
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\refint\DnD.dll
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.pdb
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.genruntimeconfig.cache
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\ref\DnD.dll
