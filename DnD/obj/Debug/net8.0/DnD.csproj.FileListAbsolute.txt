@@ -12,3 +12,6 @@ C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\refint\DnD.d
 C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.pdb
 C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.genruntimeconfig.cache
 C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\ref\DnD.dll
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\bin\Debug\net8.0\CommandLine.dll
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.csproj.AssemblyReference.cache
+C:\Users\Nathan\Desktop\Coding\Coding_Projects\DnD\obj\Debug\net8.0\DnD.csproj.CopyComplete

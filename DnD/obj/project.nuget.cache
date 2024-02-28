@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kfczEQc48CSt8BHSL2b6vzEjroP8OElwxdIKRdIhs4RcDZQVqJbaePI5oWlNJPpV0kzUMRqmqKLEWydEf4WWPQ==",
+  "dgSpecHash": "WpbJijU0sntfAOgnTgNbbUXnFwjWZ/jH5Qn31P3eS/jTEcK9xy1jdcNpt3kwCoDRzWYHjJY5IV3YeQjv7jIE2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nathan\\Desktop\\Coding\\Coding_Projects\\DnD\\DnD.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nathan\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
+  ],
   "logs": []
 }

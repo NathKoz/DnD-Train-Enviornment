@@ -1,27 +1,73 @@
-using System.Runtime.CompilerServices;
 #nullable disable
+using System;
+using System.Collections.Generic;
+using System.Threading;
 
-//Intro of the Terminal
-var Intro = "\n\nWelcome User...\n\nLogin:";
-
-foreach (var character in Intro)
-    {
-        Console.Write(character);
-        Thread.Sleep(30);
-    }
-Console.WriteLine();
-string Username = Console.ReadLine();
-
-//After Login: Will
-if (Username == "Clementine")
+class Program
 {
-    var Will_Console = "\n\nWelcome, Clementine";
+    static bool loggedIn = false;
 
-    foreach (var character in Will_Console)
+    static void Main(string[] args)
     {
-        Console.Write(character);
-        Thread.Sleep(40);
-    }
-    Console.WriteLine();
-}
+        UserManager userManager = new UserManager(); // Instantiate UserManager
+        ChallengeManager challengeManager = new ChallengeManager(userManager.Users); // Pass users to ChallengeManager
+        User currentUser = null;
 
+        while (true)
+        {
+            if (!loggedIn)
+            {
+                Console.Write("Enter your username: ");
+                string username = Console.ReadLine();
+                if (userManager.UserExists(username))
+                {
+                    loggedIn = true;
+                    currentUser = userManager.GetUser(username);
+                    Console.WriteLine($"Welcome, {username}!");
+                }
+                else
+                {
+                    Console.WriteLine("User not found");
+                }
+            }
+            else
+            {
+                Console.Write("> ");
+                string command = Console.ReadLine();
+                if (command == "help")
+                {
+                    DisplayHelp();
+                }
+                else if (command.ToLower() == "enzo")
+                {
+                    currentUser.Logout();
+                    loggedIn = false;
+                    currentUser = null;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid command");
+                }
+            }
+        }
+    }
+
+
+    static void DisplayHelp()
+    {
+        TypeOut("Available commands:\n");
+        Thread.Sleep(500);
+        TypeOut("help - Display this help message\n");
+        Thread.Sleep(500);
+        TypeOut("Enzo - Log out\n");
+    }
+
+    static void TypeOut(string text)
+    {
+        foreach (char c in text)
+        {
+            Console.Write(c);
+            Thread.Sleep(50); // Adjust the sleep duration to control typing speed
+        }
+    }
+}
